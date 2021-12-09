@@ -13,13 +13,13 @@ public class GuessOutputOne {
     }
     catch(Exception e){
       System.out.println("exception occurred");
-      // throw e;
+      // throw e; // Uncomment this and see what happens
     }
     finally {
       System.out.println("finally");
     }
-      System.out.println("after finally");
-    }
+    System.out.println("after finally");
+  }
   public static void main(String[] args) throws Exception {
     GuessOutputOne c = new GuessOutputOne();
     try {
